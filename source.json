@@ -1,0 +1,107 @@
+﻿{
+    "callStartTime": "20230721104502000",
+    "ani": "901026346638",
+    "callId": "0b90e745-a20b-123c-2da1-000af738b9b0",
+    "sessionId": "0b90e745-a20b-123c-2da1-000af738b9b0",
+    "botcode": "e51a3a7e-5a2b-416f-9597-8e4f715523f5",
+    "callType": "outbound",
+    "dnis": "7003",
+    "extension": "7003",
+    "workspaceInfo": {
+        "id": "e51a3a7e-5a2b-416f-9597-8e4f715523f5",
+        "name": "아웃백스테이크"
+    },
+    "serviceCode": "0",
+    "centerCode": "00",
+    "calleeCode": "1",
+    "campaignId": "84",
+    "tenantId": "OMS_RAPEECH",
+    "outboundCallId": "1a2e4a18-c2e2-40c7-808e-f47c9da25a8a",
+    "dialogs": [
+        {
+            "startTime": "20230721104508713",
+            "event": "greet",
+            "ai": {
+                "data": [
+                    "안녕하세요. 아웃백 예약 서비스입니다. 예약접수는 1번 예약취소는 2번을 눌러주세요."
+                ],
+                "duration": "0.110",
+                "endTime": "20230721014508973",
+                "startTime": "20230721014508863"
+            },
+            "tts": {
+                "data": [
+                    "/home2/lgu/AILeder2_0705/aileder2-main/tts/3f8838ff-b2ea-439a-a8e7-9dcbf5fdce42_20230721_104509017_ihqb.wav"
+                ],
+                "duration": "0.040",
+                "endTime": "20230721014509032",
+                "startTime": "20230721014508992"
+            },
+            "duration": "0.440",
+            "payload": "{\"bargeIn\":true,\"dtmfLength\":1,\"terminationKey\":\"#,*\",\"noinputTimeout\":5000,\"maxSpeechTimeout\":20000,\"interdigitTimeout\":5,\"advancedSmartBargeIn\":true,\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"host\":\"106.246.239.222\",\"port\":\"8000\",\"uri\":\"/qcc/inquiry\"}},\"quickCommands\":[],\"sttEngineConfig\":{\"code\":\"skt\",\"configurations\":{\"epdTimeout\":\"10\",\"partial\":\"true\",\"continuousRecognition\":\"false\",\"continualMode\":\"false\",\"epdSpeechDur\":\"30\",\"port\":\"9090\",\"host\":\"112.220.184.107\",\"partialPeriod\":\"300\",\"epdLength\":\"350\",\"epdPath\":\"/home2/lgu/AILeder2_0705/plugin-release/skt_epd_model_8khz.raw\",\"task\":\"SKTVOCD\",\"wordAlignment\":\"true\",\"cmReject\":\"false\",\"epdPauselen\":\"350\"}},\"ttsEngineConfig\":{\"code\":\"skt\",\"configurations\":{\"pause1\":\"50\",\"host\":\"106.246.239.222\",\"volume\":\"100\",\"ttsSampleRate\":\"8000\",\"pause2\":\"50\",\"voice\":\"tiffany\",\"speed\":\"100\",\"port\":\"38080\",\"pitch\":\"100\",\"domain\":\"tvoice/b2b/v1/tts?pocId=ibk&text=\"}},\"isWarning\":false,\"logMasked\":false,\"checkIn\":false,\"checkOut\":false,\"customLog\":\"\",\"transferDestinationNumber\":\"\",\"originationCallerIdNumber\":\"\",\"receiver\":\"\",\"channel\":\"\",\"messageText\":\"\"}",
+            "dialogModels": "[{\"conditions\":[],\"enableScope\":false,\"endOfScope\":false,\"label\":\"아웃백스테이크\",\"name\":\"d-e51a3a7e-5a2b-416f-9597-8e4f715523f5\",\"payload\":{\"advancedSmartBargeIn\":true,\"bargeIn\":false,\"channel\":\"\",\"checkIn\":false,\"checkOut\":false,\"customLog\":\"\",\"dtmfLength\":0,\"epdPauseLen\":450,\"interdigitTimeout\":5000,\"isWarning\":false,\"logMasked\":false,\"maxSpeechTimeout\":20000,\"messageText\":\"\",\"noinputTimeout\":5000,\"originationCallerIdNumber\":\"\",\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"host\":\"106.246.239.222\",\"port\":\"8000\",\"uri\":\"/qcc/inquiry\"}},\"receiver\":\"\",\"terminationKey\":\"\",\"transferDestinationNumber\":\"000\"},\"responses\":[\"안녕하세요. 아웃백 예약 서비스입니다.\"],\"type\":\"PROMPT\"},{\"conditions\":[],\"enableScope\":false,\"endOfScope\":false,\"label\":\"\",\"name\":\"d-476aa921-f465-4874-8e86-3423fb9553c4\",\"payload\":null,\"responses\":[],\"type\":\"PROMPT\"},{\"conditions\":[{\"comparison\":\"eq\",\"operator\":\"none\",\"parsedValue\":\"true\",\"parsedVariable\":\"true\",\"value\":\"true\",\"variable\":\"operatingStatus.operatable\"}],\"enableScope\":false,\"endOfScope\":false,\"label\":\"\",\"name\":\"d-bb3ce831-1df3-471f-8e41-c2f5c221d654\",\"payload\":null,\"responses\":[],\"type\":\"PROMPT\"},{\"conditions\":[],\"enableScope\":false,\"endOfScope\":false,\"label\":\"첫 시작\",\"name\":\"d-24dcfbb3-36ef-457c-8675-2e09e99a49e7\",\"payload\":{\"advancedSmartBargeIn\":true,\"bargeIn\":true,\"channel\":\"\",\"checkIn\":false,\"checkOut\":false,\"customLog\":\"\",\"dtmfLength\":1,\"epdPauseLen\":450,\"interdigitTimeout\":5,\"isWarning\":false,\"logMasked\":false,\"maxSpeechTimeout\":20000,\"messageText\":\"\",\"noinputTimeout\":5000,\"originationCallerIdNumber\":\"\",\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"host\":\"106.246.239.222\",\"port\":\"8000\",\"uri\":\"/qcc/inquiry\"}},\"receiver\":\"\",\"terminationKey\":\"#,*\",\"transferDestinationNumber\":\"\"},\"responses\":[\"예약접수는 1번 예약취소는 2번을 눌러주세요.\"],\"type\":\"DTMF\"}]",
+            "endTime": "20230721104509153"
+        },
+        {
+            "startTime": "20230721104509178",
+            "event": "dtmf",
+            "stt": {
+                "data": "********",
+                "duration": "9.662",
+                "endTime": "20230721014518694",
+                "startTime": "20230721014509032"
+            },
+            "ai": {
+                "data": [
+                    "********"
+                ],
+                "duration": "0.080",
+                "endTime": "20230721014518813",
+                "startTime": "20230721014518733"
+            },
+            "tts": {
+                "data": [
+                    "/home2/lgu/AILeder2_0705/aileder2-main/tts/3f8838ff-b2ea-439a-a8e7-9dcbf5fdce42_20230721_104518836_bsdb.wav"
+                ],
+                "duration": "0.029",
+                "endTime": "20230721014518845",
+                "startTime": "20230721014518816"
+            },
+            "duration": "9.756",
+            "payload": "{\"bargeIn\":false,\"dtmfLength\":1,\"terminationKey\":\"#,*\",\"noinputTimeout\":5000,\"maxSpeechTimeout\":20000,\"interdigitTimeout\":5,\"advancedSmartBargeIn\":true,\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"port\":\"8000\",\"uri\":\"/qcc/inquiry\",\"host\":\"106.246.239.222\"}},\"quickCommands\":[\"#VOLUME_UP\",\"#VOLUME_DOWN\",\"#SPEED_UP\",\"#PLAY\",\"#AGENT\",\"#STOP\",\"#SPEED_DOWN\"],\"sttEngineConfig\":{\"code\":\"skt\",\"configurations\":{\"port\":\"9090\",\"epdSpeechDur\":\"30\",\"partialPeriod\":\"300\",\"continuousRecognition\":\"false\",\"cmReject\":\"false\",\"task\":\"SKTVOCD\",\"epdLength\":\"350\",\"epdTimeout\":\"10\",\"wordAlignment\":\"true\",\"epdPauselen\":\"350\",\"continualMode\":\"false\",\"host\":\"112.220.184.107\",\"epdPath\":\"/home2/lgu/AILeder2_0705/plugin-release/skt_epd_model_8khz.raw\",\"partial\":\"true\"}},\"ttsEngineConfig\":{\"code\":\"skt\",\"configurations\":{\"volume\":\"100\",\"speed\":\"100\",\"host\":\"106.246.239.222\",\"ttsSampleRate\":\"8000\",\"pause2\":\"50\",\"port\":\"38080\",\"pause1\":\"50\",\"domain\":\"tvoice/b2b/v1/tts?pocId=ibk&text=\",\"pitch\":\"100\",\"voice\":\"tiffany\"}},\"isWarning\":false,\"logMasked\":true,\"checkIn\":true,\"checkOut\":false,\"customLog\":\"\",\"transferDestinationNumber\":\"\",\"originationCallerIdNumber\":\"\",\"receiver\":\"\",\"channel\":\"\",\"messageText\":\"\"}",
+            "dialogModels": "[{\"name\":\"d-817f40a6-f837-4f59-8d07-29e30b6d5ba7\",\"label\":\"예약취소\",\"type\":\"VOICE\",\"conditions\":[{\"operator\":\"none\",\"variable\":\"lastResult\",\"parsedVariable\":\"2\",\"value\":\"2\",\"parsedValue\":\"2\",\"comparison\":\"eq\"}],\"responses\":[\"********\"],\"payload\":{\"bargeIn\":false,\"epdPauseLen\":450,\"dtmfLength\":1,\"terminationKey\":\"#,*\",\"noinputTimeout\":5000,\"logMasked\":true,\"isWarning\":false,\"checkIn\":true,\"checkOut\":false,\"customLog\":\"\",\"advancedSmartBargeIn\":true,\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"host\":\"106.246.239.222\",\"port\":\"8000\",\"uri\":\"/qcc/inquiry\"}},\"maxSpeechTimeout\":20000,\"interdigitTimeout\":5,\"receiver\":\"\",\"channel\":\"\",\"transferDestinationNumber\":\"\",\"messageText\":\"\"},\"enableScope\":false,\"endOfScope\":false}]",
+            "endTime": "20230721104518934"
+        },
+        {
+            "startTime": "20230721104518957",
+            "event": "voice",
+            "stt": {
+                "data": "김장훈",
+                "duration": "7.651",
+                "endTime": "20230721014526496",
+                "startTime": "20230721014518845"
+            },
+            "ai": {
+                "data": [
+                    "네 알겠습니다. 예약을 취소해드리겠습니다. 감사합니다. 아웃백 상담원이였습니다."
+                ],
+                "duration": "0.125",
+                "endTime": "20230721014526695",
+                "startTime": "20230721014526570"
+            },
+            "tts": {
+                "data": [
+                    "/home2/lgu/AILeder2_0705/aileder2-main/tts/3f8838ff-b2ea-439a-a8e7-9dcbf5fdce42_20230721_104528492_oyzs.wav"
+                ],
+                "duration": "1.809",
+                "endTime": "20230721014528507",
+                "startTime": "20230721014526698"
+            },
+            "duration": "9.676",
+            "payload": "{\"bargeIn\":false,\"dtmfLength\":1,\"terminationKey\":\"#,*\",\"noinputTimeout\":5000,\"maxSpeechTimeout\":5000,\"interdigitTimeout\":5,\"advancedSmartBargeIn\":true,\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"port\":\"8000\",\"uri\":\"/qcc/inquiry\",\"host\":\"106.246.239.222\"}},\"quickCommands\":[],\"sttEngineConfig\":{\"code\":\"skt\",\"configurations\":{\"cmReject\":\"false\",\"host\":\"112.220.184.107\",\"partialPeriod\":\"300\",\"port\":\"9090\",\"partial\":\"true\",\"task\":\"SKTVOCD\",\"epdLength\":\"350\",\"epdTimeout\":\"10\",\"epdSpeechDur\":\"30\",\"wordAlignment\":\"true\",\"epdPauselen\":\"350\",\"continuousRecognition\":\"false\",\"epdPath\":\"/home2/lgu/AILeder2_0705/plugin-release/skt_epd_model_8khz.raw\",\"continualMode\":\"false\"}},\"ttsEngineConfig\":{\"code\":\"skt\",\"configurations\":{\"domain\":\"tvoice/b2b/v1/tts?pocId=ibk&text=\",\"ttsSampleRate\":\"8000\",\"pause2\":\"50\",\"pause1\":\"50\",\"port\":\"38080\",\"speed\":\"100\",\"voice\":\"tiffany\",\"pitch\":\"100\",\"volume\":\"100\",\"host\":\"106.246.239.222\"}},\"isWarning\":false,\"logMasked\":false,\"checkIn\":false,\"checkOut\":false,\"customLog\":\"\",\"transferDestinationNumber\":\"\",\"originationCallerIdNumber\":\"\",\"receiver\":\"\",\"channel\":\"\",\"messageText\":\"\"}",
+            "dialogModels": "[{\"conditions\":[],\"enableScope\":false,\"endOfScope\":false,\"label\":\"예약자 이름 확인\",\"name\":\"d-faa7e6cf-f486-4dec-8e91-bb04b9f9922b\",\"payload\":{\"advancedSmartBargeIn\":true,\"bargeIn\":false,\"channel\":\"\",\"checkIn\":false,\"checkOut\":true,\"customLog\":\"예약자 이름\",\"dtmfLength\":1,\"epdPauseLen\":10,\"interdigitTimeout\":5,\"isWarning\":false,\"logMasked\":false,\"maxSpeechTimeout\":10,\"messageText\":\"\",\"noinputTimeout\":-1,\"originationCallerIdNumber\":\"\",\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"host\":\"106.246.239.222\",\"port\":\"8000\",\"uri\":\"/qcc/inquiry\"}},\"receiver\":\"\",\"terminationKey\":\"#,*\",\"transferDestinationNumber\":\"\"},\"responses\":[\"네 알겠습니다. 예약을 취소해드리겠습니다.\"],\"type\":\"PROMPT\"},{\"conditions\":[],\"enableScope\":false,\"endOfScope\":false,\"label\":\"예약취소 완료\",\"name\":\"d-9bd11528-98bf-417b-8dd2-cfdc52f34306\",\"payload\":{\"advancedSmartBargeIn\":true,\"bargeIn\":false,\"channel\":\"\",\"checkIn\":false,\"checkOut\":false,\"customLog\":\"\",\"dtmfLength\":1,\"epdPauseLen\":10,\"interdigitTimeout\":5,\"isWarning\":false,\"logMasked\":false,\"maxSpeechTimeout\":10,\"messageText\":\"\",\"noinputTimeout\":5000,\"originationCallerIdNumber\":\"\",\"qccEngineConfig\":{\"code\":\"rapeech\",\"configurations\":{\"host\":\"106.246.239.222\",\"port\":\"8000\",\"uri\":\"/qcc/inquiry\"}},\"receiver\":\"\",\"terminationKey\":\"#,*\",\"transferDestinationNumber\":\"\"},\"responses\":[\"감사합니다. 아웃백 상담원이였습니다.\"],\"type\":\"HANGUP\"}]",
+            "endTime": "20230721104528633"
+        }
+    ],
+    "callEndTime": "20230721104535000"
+}
